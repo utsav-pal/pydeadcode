@@ -1,0 +1,8 @@
+/home/utsav/Documents/pydeadcode/target/debug/deps/tree_sitter_python-39f769dc41fa5572.d: /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/lib.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../src/node-types.json /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../queries/highlights.scm /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../queries/tags.scm
+
+/home/utsav/Documents/pydeadcode/target/debug/deps/libtree_sitter_python-39f769dc41fa5572.rmeta: /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/lib.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../src/node-types.json /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../queries/highlights.scm /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../queries/tags.scm
+
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/lib.rs:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../src/node-types.json:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../queries/highlights.scm:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-python-0.21.0/bindings/rust/../../queries/tags.scm:

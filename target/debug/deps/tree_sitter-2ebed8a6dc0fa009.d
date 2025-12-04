@@ -1,0 +1,13 @@
+/home/utsav/Documents/pydeadcode/target/debug/deps/tree_sitter-2ebed8a6dc0fa009.d: /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/lib.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/ffi.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/util.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/./README.md /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/./bindings.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/../src/parser.h /home/utsav/Documents/pydeadcode/target/debug/build/tree-sitter-fc7d6c8dc421aa60/out/stdlib-symbols.txt
+
+/home/utsav/Documents/pydeadcode/target/debug/deps/libtree_sitter-2ebed8a6dc0fa009.rmeta: /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/lib.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/ffi.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/util.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/./README.md /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/./bindings.rs /home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/../src/parser.h /home/utsav/Documents/pydeadcode/target/debug/build/tree-sitter-fc7d6c8dc421aa60/out/stdlib-symbols.txt
+
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/lib.rs:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/ffi.rs:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/util.rs:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/./README.md:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/./bindings.rs:
+/home/utsav/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tree-sitter-0.24.7/binding_rust/../src/parser.h:
+/home/utsav/Documents/pydeadcode/target/debug/build/tree-sitter-fc7d6c8dc421aa60/out/stdlib-symbols.txt:
+
+# env-dep:OUT_DIR=/home/utsav/Documents/pydeadcode/target/debug/build/tree-sitter-fc7d6c8dc421aa60/out
