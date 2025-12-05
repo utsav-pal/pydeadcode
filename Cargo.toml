@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Utsav Pal "]
 description = "Fast Python dead code finder, built in Rust"
-repository = "https://github.com/YOUR_USERNAME/pydeadcode"
+repository = "https://github.com/utsav-pal/pydeadcode"
 license = "MIT"
 
 [[bin]]
