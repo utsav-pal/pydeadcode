@@ -16,10 +16,13 @@ pub struct DeadCodeItem {
 }
 
 pub struct DeadCodeAnalyzer {
+    #[allow(dead_code)]
     min_confidence: u8,
+    #[allow(dead_code)]
     exclude_patterns: Vec<String>,
     defined_names: HashMap<String, Vec<(String, usize)>>,
     used_names: HashMap<String, usize>,
+    #[allow(dead_code)]
     results: Vec<DeadCodeItem>,
 }
 
@@ -73,7 +76,7 @@ impl DeadCodeAnalyzer {
             if let Some(name_node) = node.child_by_field_name("name") {
                 let name = name_node.utf8_text(content.as_bytes()).unwrap_or("");
                 let line = node.start_position().row + 1;
-                let size = node.end_byte() - node.start_byte();
+                let _size = node.end_byte() - node.start_byte();
                 
                 self.defined_names
                     .entry(name.to_string())
