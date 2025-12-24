@@ -142,44 +142,6 @@ example.py: line 11 - UnusedClass [class] (80% confidence)
 2 dead code items found
 ```
 
-## 🎯 How It Works
-
-PyDeadCode employs a sophisticated multi-phase static analysis approach:
-
-### Phase 1: Parsing
-- Uses **tree-sitter** for incremental parsing
-- Generates an Abstract Syntax Tree (AST) from Python source
-- Handles Python 3.x syntax including modern features
-
-### Phase 2: Definition Tracking
-Tracks all code definitions:
-- Function and method definitions
-- Class definitions
-- Variable assignments (global, local, class variables)
-- Import statements
-- Lambda functions
-
-### Phase 3: Usage Analysis
-Scans the entire codebase for:
-- Function/method calls
-- Class instantiations
-- Variable references
-- Attribute access (`obj.method()`)
-- Dynamic invocations (`getattr`, `eval`)
-
-### Phase 4: Smart Filtering
-Applies heuristics to reduce false positives:
-- **Magic methods**: Always considered "used" (`__init__`, `__str__`, `__call__`, etc.)
-- **Test functions**: Matches patterns like `test_*`, `Test*` classes
-- **Decorated functions**: Lower confidence (might be registered)
-- **`__all__` exports**: Explicitly exported items are marked as used
-- **Private methods**: Starting with `_` get special handling
-
-### Phase 5: Confidence Scoring
-Assigns confidence levels:
-- **80%**: Regular functions/classes with no usage found
-- **70%**: Methods (might be called via inheritance)
-- **60%**: Decorated functions (framework might use them)
 
 ## 🧪 Testing
 
@@ -252,62 +214,6 @@ pydeadcode/
 - Smart confidence-based reporting
 - Handles complex Python patterns
 
-## 🚧 Roadmap
-
-- [ ] Multi-file analysis (cross-module import tracking)
-- [ ] `--fix` mode to automatically remove dead code
-- [ ] Configuration file support (`.pydeadcode.toml`)
-- [ ] JSON output format for CI/CD integration
-- [ ] Directory recursive scanning
-- [ ] Exclude patterns (`--exclude` flag)
-- [ ] GitHub Actions integration
-- [ ] Pre-commit hook support
-- [ ] VS Code extension
-- [ ] Support for type stubs (`.pyi` files)
-- [ ] Performance benchmarking suite
-- [ ] Interactive TUI mode
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-### Getting Started
-
-1. **Fork** the repository
-2. **Clone** your fork:
-   ```bash
-   git clone https://github.com/<your-username>/pydeadcode.git
-   cd pydeadcode
-   ```
-3. **Create a branch**:
-   ```bash
-   git checkout -b feature/my-amazing-feature
-   ```
-4. **Make your changes**
-5. **Run tests**:
-   ```bash
-   cargo test
-   cargo build
-   ./target/debug/pydeadcode testfile1.py
-   ```
-6. **Format code**:
-   ```bash
-   cargo fmt
-   ```
-7. **Check for lints**:
-   ```bash
-   cargo clippy
-   ```
-8. **Commit**:
-   ```bash
-   git commit -m "Add amazing feature"
-   ```
-9. **Push**:
-   ```bash
-   git push origin feature/my-amazing-feature
-   ```
-10. **Open a Pull Request** on GitHub
-
 ### Code Style
 
 - Follow Rust standard formatting (`cargo fmt`)
@@ -321,26 +227,6 @@ Open an issue with:
 - Python code sample that triggers the bug
 - Expected vs actual output
 - Your environment (OS, Rust version: `rustc --version`)
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 Utsav Pal
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
 
 ## 🙏 Acknowledgments
 
