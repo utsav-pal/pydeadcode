@@ -198,28 +198,6 @@ pydeadcode/
 └── testfile2.py         # Complex benchmark cases
 ```
 
-## 🔬 Comparison with Other Tools
-
-| Tool | Language | Parser | Speed | False Positives | Dynamic Code |
-|------|----------|--------|-------|----------------|--------------|
-| **PyDeadCode** | Rust | tree-sitter | ⚡⚡⚡ Very Fast | Low | Smart handling |
-| Vulture | Python | AST | Medium | High | Limited |
-| Pylint | Python | AST | Slow | Medium | Basic |
-| Skylos | Rust | tree-sitter | Fast | Low | Good |
-| deadcode | Python | AST + Coverage | Slow | Very Low | Best |
-
-**PyDeadCode advantages:**
-- Written in Rust for performance
-- Tree-sitter for robust parsing
-- Smart confidence-based reporting
-- Handles complex Python patterns
-
-### Code Style
-
-- Follow Rust standard formatting (`cargo fmt`)
-- Pass all clippy lints (`cargo clippy`)
-- Add tests for new features
-- Update README for user-facing changes
 
 ### Reporting Bugs
 
@@ -245,20 +223,7 @@ Open an issue with:
 - Computer Science Engineering Student
 - Open Source Contributor
 
-## 📊 Performance
 
-Benchmarked on various Python codebases:
-
-| Codebase Size | Analysis Time | Memory Usage |
-|---------------|---------------|--------------|
-| 100 lines     | ~10ms         | ~5MB         |
-| 500 lines     | ~30ms         | ~10MB        |
-| 1000+ lines   | ~50ms         | ~15MB        |
-| 5000+ lines   | ~200ms        | ~30MB        |
-
-*Tested on: Ubuntu 22.04, Intel i7, 16GB RAM*
-
-**Accuracy**: ~95% (manually verified on real-world projects)
 
 ## 🐛 Known Limitations
 
